@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Travel Box</string>
+    <string name="contact_no">Contact No</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="email_id">Email-Id</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="tenDigit">10 Digit Mobile No</string>
+    <string name="sigh_up">Sign Up</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="Rs">\u20B9</string>
+    <string name="mrp">MRP :</string>
+    <string name="offer_price">OFFER PRICE :</string>
+    <string name="contact">CONTACT</string>
+    <string name="search">Search</string>
+    <string name="my_wishlish">Wishlist</string>
+
+
+    <!--Intro slider texts -->
+    <string name="next">NEXT</string>
+
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Nature !!</string>
+    <string name="slide_1_desc">The easiest way to book your favourite restaurant!
+    </string>
+
+    <string name="slide_2_title">Easy Food !!</string>
+    <string name="slide_2_desc">Book food for your family and friends instantly!</string>
+
+    <string name="slide_3_title">Great Discounts !!</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel !!</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="shopping_cart">Wallets</string>
+    <string name="my_bookings">Bookings</string>
+    <string name="my_home">Home</string>
+    <string name="my_profile">Profile</string>
+
+    <string name="help_support">Help \u0026 Support</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="terms_conditions">Terms \u0026 Conditions</string>
+    <string name="help_center">Help Center</string>
+    <string name="sparklink_technologies">Sparklink Technologies</string>
+    <string name="website_address">sparklinktech.com</string>
+
+    <string name="google_maps_key">AIzaSyAeqGpip2po3_nF8vCyguzpAjGnMQr5oEk</string>
+    <string name="nextbtn"><![CDATA[>]]></string>
+    <string name="prevbtn"><![CDATA[<]]></string>
+    <string name="check_in">Check In</string>
+    <string name="check_out">Check Out</string>
+
+
+
+</resources>

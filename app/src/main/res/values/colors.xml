@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1bb322</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimaryDarkHotel">#4b4b4b</color>
+
+    <color name="colorAccent">#000000</color>
+    <color name="colorAccentHotel">#dc1919</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBtn">#00ff84</color>
+    <color name="actionBarTitleColor">#5c5dcc</color>
+
+
+    <color name="colorPrimaryDark2">#000000</color>
+    <color name="transparentcolorAccent2">@android:color/transparent</color>
+    <color name="transparenttextColorPrimary2">#4b4b4b</color>
+    <!-- Screens background color-->
+    <color name="bg_screen1">#000000</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#252428</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#24a1c4</color>
+
+    <!-- Placeholder colors-->
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+    </array>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+
+    <color name="colorRipple">#b8616161</color>
+
+    <color name="colorNew2">#6e40a6</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorRed">#ef0000</color>
+    <color name="colorMainLayout">#f4f4f4</color>
+    <color name="colorProductLayout">#f2f2f2</color>
+    <color name="book_btnColor">#1bb322</color>
+
+    <color name="gen_black">#000000</color>
+    <color name="gen_white">#FFFFFF</color>
+    <color name="green_light">#43A047</color>
+
+    <color name="greenBack_light">#cae7cb</color>
+
+
+    <color name="actionBarColor3">#00000000</color>
+    <color name="actionBarColor1">#60000000</color>
+
+    <color name="imageColor3">#06000000</color>
+    <color name="imageColor2">#56353333</color>
+    <color name="imageColor1">#c8353333</color>
+
+
+
+
+</resources>

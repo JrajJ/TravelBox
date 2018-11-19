@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.design.widget.AppBarLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:elevation="10dp"
+        android:elevation="10dp"
+        android:fitsSystemWindows="true"
+
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarHot"
+        app:layout_collapseMode="pin"
+
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="24dp"
+        android:elevation="10dp"
+        />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_marginBottom="300dp"
+            android:background="@color/gen_white"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="2000dp">
+
+
+
+            <LinearLayout
+                android:background="@color/gen_white"
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView
+
+                    android:background="@color/gen_white"
+
+                    android:id="@+id/card_recycler_view_Hotelimagess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:background="@drawable/totalimages_back_gradient"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:gravity="bottom|end"
+        android:layout_gravity="bottom|center"
+        android:textColor="@color/gen_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="25 Photos"
+        android:id="@+id/total_images"/>
+
+
+</FrameLayout>
+
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:background="@color/colorProductLayout"
+
+                    android:id="@+id/card_recycler_view_Hoteldetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d4d4d4"
+                    />
+                <!-- <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:layout_marginTop="1dp"
+                     android:background="#dadada"/>-->
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+
+                    android:id="@+id/card_recycler_view_HotelServices"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <!-- put your content here -->
+                <View android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d4d4d4"
+                    />
+                <LinearLayout
+                    android:weightSum="0"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:layout_weight="4"
+                        android:paddingLeft="@dimen/margin_4"
+                        android:paddingRight="@dimen/margin_4"
+                        android:background="@drawable/cardview_gradient_hotels"
+                        android:textColor="@color/book_btnColor"
+                        android:onClick="checkindtp"
+                        android:textSize="13sp"
+                        android:textColorHint="@color/book_btnColor"
+
+                        android:gravity="center"
+                        android:id="@+id/checkin"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:hint="@string/check_in"/>
+                    <TextView
+
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:layout_weight="5"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingRight="@dimen/margin_4"
+                        android:paddingLeft="@dimen/margin_4"
+                        android:text="1 Night"
+                        android:textColor="@color/colorBlack"
+                        android:id="@+id/one_night"/>
+
+                    <Button
+                        android:enabled="false"
+                        android:paddingLeft="@dimen/margin_4"
+                        android:paddingRight="@dimen/margin_4"
+                        android:layout_weight="4"
+                        android:textColorHint="@color/colorRed"
+                        android:background="@drawable/cardview_gradient_hotels"
+                        android:textColor="@color/colorRed"
+                        android:onClick="checkoutdtp"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:id="@+id/checkout"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:hint="@string/check_out"/>
+                </LinearLayout>
+                <View android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d4d4d4"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+
+        android:layout_gravity="bottom"
+        android:stateListAnimator="@drawable/state_list_animator_z"
+        android:foregroundGravity="bottom"
+        android:background="@drawable/book_btn_gradient"
+        android:gravity="center"
+        android:onClick="order"
+        android:typeface="monospace"
+        android:text="BOOK NOW"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:textColor="@color/gen_white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        />
+</android.support.design.widget.CoordinatorLayout>

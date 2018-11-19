@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/transparenttextColorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkHotel</item>
+        <item name="colorAccent">@color/colorAccentHotel</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+
+   </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppThemeFullImage" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccentHotel</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppThemeRegistration" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="colorControlNormal">@color/textColorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Action Bar Title Color -->
+        <item name="titleTextColor">@color/colorWhite</item>
+        <item name="listPreferredItemHeightSmall">50dp</item>
+
+
+    </style>
+    <!-- Transparent Action Bar  -->
+    <style name="AppTheme.NoActionBar2">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="colorControlNormal">@color/transparenttextColorPrimary2</item>
+        <item name="colorPrimary">@color/transparentcolorAccent2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorBlack</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Action Bar Title Color -->
+        <item name="titleTextColor">@color/actionBarTitleColor</item>
+        <item name="listPreferredItemHeightSmall">50dp</item>
+
+    </style>
+
+
+    <!-- Transparent Hotel DetailsAction Bar  -->
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimaryDark2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/transparentcolorAccent2</item>
+
+    </style>
+
+    <!-- Action Bar Hamburger Icon Color -->
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/textColorPrimary</item>
+    </style>
+
+
+    <!-- Collapsing Toolbar Collapsed Title Color and Size Change -->
+    <style name="TextAppearance.MyApp.Title.Collapsed" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Collapsing Toolbar Expanded Title Color and Size Change -->
+    <style name="TextAppearance.MyApp.Title.Expanded" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+
+    <!-- Transparent Hotel DetailsAction Bar 2 -->
+
+    <!--       Animation      -->
+
+</resources>

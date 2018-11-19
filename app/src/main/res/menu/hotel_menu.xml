@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main_Activity">
+    <item
+        android:id="@+id/hotel_menu_wishlist"
+        android:icon="@drawable/wishlist_white"
+        android:title="@string/my_wishlish"
+        app:showAsAction="always"
+        android:gravity="center"
+        android:actionLayout="@layout/iv_wishlist"
+
+
+        />
+
+    <item
+        android:gravity="center"
+        android:id="@+id/share"
+        android:icon="@drawable/ic_action_share"
+        android:title="Share"
+        app:showAsAction="always"
+        />
+
+</menu>

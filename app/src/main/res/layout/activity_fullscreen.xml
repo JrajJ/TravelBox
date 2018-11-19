@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:background="@color/gen_black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        android:id="@+id/next"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/nextbtn" />
+
+    <Button
+        android:textColor="@color/colorWhite"
+
+        android:textSize="30sp"
+        android:background="@android:color/transparent"
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/prevbtn"
+        />
+
+    <TextView
+        android:id="@+id/fullimage_totalPhotos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="5 PHOTOS"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp" />
+
+        <!--<android.support.v4.view.ViewPager
+            android:id="@+id/pagerfullimage"
+            android:background="#000000"
+
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicatorfullimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_4"
+        android:layout_margin="@dimen/margin_8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/gen_black"
+        android:gravity="bottom"
+        app:centered="true"
+        app:fillColor="#00d1ae"
+        app:pageColor="@color/gen_white"
+        app:snap="false" />-->
+
+    </RelativeLayout>
+    <!--<android.support.v7.widget.RecyclerView
+
+        android:background="@color/gen_white"
+
+        android:id="@+id/card_recycler_view_Hotelimage_fullScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+
+
+

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Product_Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar22"
+            app:titleTextColor="@color/textColorPrimary"
+            app:subtitleTextColor="@color/textColorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/actionBarTitleColor"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+    <!-- Top Sliding Banners -->
+    <FrameLayout
+
+        android:id="@+id/frame_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+            <LinearLayout
+
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/card_recycler_view_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <View android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d4d4d4"
+                    />
+               <!-- <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#dadada"/>-->
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/card_recycler_view_shop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+              <!--  <TextView
+                    android:id="@+id/name_product"
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:text="BELOO !!!!!!! BANANA!!!!!!"/>
+
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/image_product"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/bat_minion"/>
+                <TextView
+                    android:layout_margin="20dp"
+                    android:id="@+id/desc_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:text="Discription"/>
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/price_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:text="Price"/>-->
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:weightSum="2"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/gen_white"
+                android:text="Save"
+                android:textSize="14sp"
+                android:textColor="@color/gen_black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:onClick="addToCart"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Book"
+                android:onClick="order"
+                android:textSize="14sp"
+                android:textColor="@color/gen_white"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
